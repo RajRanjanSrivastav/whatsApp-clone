@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+}
+#main-container {
+  padding: 0%;
+  border: 2px solid black;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+#cont1 {
+  background-color: rgb(0, 0, 0,0.8);
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 8vw;
+  overflow: hidden;
+}
+#cont2 {
+  background-color: rgb(0, 0, 0, 0.7);
+  height: 100vh;
+  width: 40vw;
+}
+#cont3 {
+
+  border: 2px solid rgb(81, 0, 255);
+  height: 100vh;
+}
+
+/* first container */
+#sideNav {
+  /* border: 2px solid red; */
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.side-nav-list {
+  padding: 0;
+  font-size: 28px;
+  /* border: 2px solid rgb(255, 0, 0); */
+}
+.side-nav-list li {
+  list-style: none;
+  padding: 6px;
+}
+.side-nav-list li a {
+  color: rgb(255, 255, 255);
+}
+
+#profile {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/* first container end */
+
+/* second container*/
+#icons-chat-top li {
+  list-style: none;
+}
+#slider-contacts {
+  /* border: 2px solid red; */
+  overflow-y: scroll;
+  height: 80%;
+}
+#slider-contacts div {
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: white;
+}
+.profile-pic img {
+  width: 56px;
+  height: 57px;
+  object-fit: contain;
+}
+#profile img {
+  width: 52px;
+  object-fit: contain;
+}
+.count {
+  color: rgb(0, 204, 0);
+  font-weight: 600;
+}
+.name {
+  font-size: 1.2rem;
+  width: inherit;
+}
+
+/* third container */
+#header-container{
+  border: 2px solid red;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+#span-icons {
+  margin-top: 4px;
+  /* border: 2px solid white; */
+  border-radius: 10px;
+  background-color: rgba(210, 206, 206, 0.6);
+  padding: 8px;
+}
+#span-icons span{
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: black;
+  padding: 8px;
+}
+#first
+{
+  border-right: 1px solid black;
+}
+
+#chat-container{
+  border: 2px solid yellow;
+  height: 78.6vh;
+}
+
+.sendBtn{
+  cursor: pointer;
+}
+
+/* message */
+#message-box{
+  border: 2px solid red;
+}
