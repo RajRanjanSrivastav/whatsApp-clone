@@ -1,5 +1,86 @@
 [
-    {
+    {   
+        "id":0,
+        "name":"Arnika Mam",
+        "img":"assets/images/mam.jpg"
+    },
+    {   
+        "id":1,
+        "name":"Raj Ranjan Srivastav",
+        "img":"assets/images/raj.jpg"
+    },
+    {   
+        "id":2,
+        "name":"Thor",
+        "img":"assets/images/thor.jpg"
+    },
+    {   
+        "id":3,
+        "name":"Captain America",
+        "img":"assets/images/captain.jpg"
+    },
+    {   
+        "id":4,
+        "name":"Doctor Strange",
+        "img":"assets/images/strange.jpg"
+    },
+    {   
+        "id":5,
+        "name":"Mr. Banner",
+        "img":"assets/images/hulk.jpg"
+    },
+    {   
+        "id":6,
+        "name":"Loki",
+        "img":"assets/images/loki.png"
+    },
+    {   
+        "id":7,
+        "name":"Chudail Aunty",
+        "img":"assets/images/chudail.png"
+    },
+    {   
+        "id":8,
+        "name":"Hulk's Sister",
+        "img":"assets/images/hulk's Sister.png"
+    },
+    {   
+        "id":9,
+        "name":"Spider Man",
+        "img":"assets/images/spiderman.png"
+    },
+    {   
+        "id":10,
+        "name":"Iron Man",
+        "img":"assets/images/ironman.jpg"
+    },
+    {   
+        "id":11,
+        "name":"Joker",
+        "img":"assets/images/jokere.png"
+    },
+    {   
+        "id":12,
+        "name":"Skull",
+        "img":"assets/images/skull.png"
+    },
+    {   
+        "id":13,
+        "name":"Jadugar uncel",
+        "img":"assets/images/jadugar.png"
+    },
+    {   
+        "id":14,
+        "name":"Mr. Harry Potter",
+        "img":"assets/images/harry.png"
+    },
+    {   
+        "id":15,
+        "name":"Body Gaurd",
+        "img":"assets/images/bodygard.png"
+    },
+    {   
+        "id":0,
         "name":"Raj Ranjan Srivastav",
         "img":"assets/images/raj.jpg"
     }

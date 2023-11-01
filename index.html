@@ -102,40 +102,13 @@
         </div>
         <div class="container-fluid" id="slider-contacts">
           <div class="row mb-3">
-            <div class="col d-flex p-0">
+            <div class="col d-flex p-0" id="call_Name" onclick="changeData()">
               <div class="profile-pic">
                 <img src="assets/images/raj.jpg" alt="" />
               </div>
               <div class="name ps-2 text-white d-flex justify-content-between">
                 <p>raj ranjan srivastav</p>
                 <p class="ms-2 count">22+</p>
-              </div>
-            </div>
-          </div>
-          <div class="row mb-2">
-            <div class="col d-flex p-0">
-              <div class="profile-pic"><img src="" alt="" /></div>
-              <div class="name ps-2 text-white d-flex justify-content-between">
-                <p>raj ranjan srivastav</p>
-                <p class="ms-2">22+</p>
-              </div>
-            </div>
-          </div>
-          <div class="row mb-2">
-            <div class="col d-flex p-0">
-              <div class="profile-pic"><img src="" alt="" /></div>
-              <div class="name ps-2 text-white d-flex justify-content-between">
-                <p>raj ranjan srivastav</p>
-                <p class="ms-2">22+</p>
-              </div>
-            </div>
-          </div>
-          <div class="row mb-2">
-            <div class="col d-flex p-0">
-              <div class="profile-pic"><img src="" alt="" /></div>
-              <div class="name ps-2 text-white d-flex justify-content-between">
-                <p>raj ranjan srivastav</p>
-                <p class="ms-2">22+</p>
               </div>
             </div>
           </div>
@@ -150,18 +123,18 @@
           <div class="row mb-2">
             <div class="col d-flex mt-2">
               <div class="profile-pic">
-                <img src="assets/images/raj.jpg" alt="" />
+                <img src="assets/images/raj.jpg" alt="" id="photo"/>
               </div>
               <div class="name ps-4 text-white d-flex justify-content-between">
                 <div>
-                  <p class="m-0">Raj Ranjan Srivastav</p>
+                  <p class="m-0" id="forChange">Raj Ranjan Srivastav</p>
                   <p class="m-0 count" style="font-size: 1rem; opacity: 0.8">
                     online
                   </p>
                 </div>
                 <div id="span-icons">
-                      <span id="first"><i class="bi bi-camera-video"></i></span>
-                      <span><i class="bi bi-telephone"></i></span>
+                  <span id="first"><i class="bi bi-camera-video"></i></span>
+                  <span><i class="bi bi-telephone"></i></span>
                 </div>
               </div>
             </div>
@@ -176,19 +149,31 @@
             background-image: url('assets/images/chatBack.jpg');
             background-repeat: no-repeat;
             background-size: cover;
+            overflow-y: scroll;
           "
         >
-
-        <div class="row" id="message-box">
-          <div class="col">
-            <p>hello how are you</p>
+          <div class="row d-flex justify-content-end m-3 me-0" id="message-box">
+            <div class="col-8 pe-0">
+              <div class="mess-blue rounded d-flex justify-content-end">
+                <p
+                  class="p-2 text-end"
+                  style="
+                    background-color: rgb(249, 247, 247, 0.9);
+                    border-radius: 20px;
+                    margin-bottom: 0;
+                    display: inline-block;
+                  "
+                >
+                  Test message
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
         <!-- typing container-->
         <div class="container-fluid p-0" id="typing">
-          <div class="input-group mb-3">
+          <div class="input-group">
             <span class="input-group-text" id="basic-addon1"
               ><i class="bi bi-emoji-smile"></i
             ></span>
@@ -198,6 +183,7 @@
             <input
               type="text"
               class="form-control p-2"
+              id="inputType"
               placeholder="Typing....."
               aria-label="Username"
               aria-describedby="basic-addon1"
@@ -205,7 +191,10 @@
             <span class="input-group-text" id="basic-addon1"
               ><i class="bi bi-mic"></i
             ></span>
-            <span class="input-group-text sendBtn" id="basic-addon1" 
+            <span
+              class="input-group-text sendBtn"
+              id="basic-addon1"
+              onclick="sendMess('inputType')"
               ><img
                 src="assets/images/send.png"
                 alt=""

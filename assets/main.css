@@ -45,7 +45,7 @@
 }
 #cont3 {
 
-  border: 2px solid rgb(81, 0, 255);
+  /* border: 2px solid rgb(81, 0, 255); */
   height: 100vh;
 }
 
@@ -121,7 +121,7 @@
 
 /* third container */
 #header-container{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: rgb(0, 0, 0, 0.8);
 }
 
@@ -131,6 +131,9 @@
   border-radius: 10px;
   background-color: rgba(210, 206, 206, 0.6);
   padding: 8px;
+}
+#span-icons:hover{
+  background-color: rgba(210, 206, 206, 0.9);
 }
 #span-icons span{
   cursor: pointer;
@@ -145,8 +148,8 @@
 }
 
 #chat-container{
-  border: 2px solid yellow;
-  height: 78.6vh;
+  /* border: 2px solid yellow; */
+  height: 80vh;
 }
 
 .sendBtn{
@@ -155,5 +158,9 @@
 
 /* message */
 #message-box{
-  border: 2px solid red;
+  /* border: 2px solid red; */
+}
+
+#chk{
+  border: 2px solid rgb(255, 255, 255);  
 }
